@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC326A6219DE81A7008F3BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC326A6119DE81A7008F3BF4 /* AppDelegate.swift */; };
+		DC326A6519DE81A7008F3BF4 /* toothless.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC326A6319DE81A7008F3BF4 /* toothless.xcdatamodeld */; };
+		DC326A6719DE81A7008F3BF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC326A6619DE81A7008F3BF4 /* ViewController.swift */; };
+		DC326A6A19DE81A7008F3BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC326A6819DE81A7008F3BF4 /* Main.storyboard */; };
+		DC326A6C19DE81A7008F3BF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC326A6B19DE81A7008F3BF4 /* Images.xcassets */; };
+		DC326A6F19DE81A7008F3BF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC326A6D19DE81A7008F3BF4 /* LaunchScreen.xib */; };
+		DC326A7B19DE81A7008F3BF4 /* toothlessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC326A7A19DE81A7008F3BF4 /* toothlessTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC326A7519DE81A7008F3BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC326A5419DE81A7008F3BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC326A5B19DE81A7008F3BF4;
+			remoteInfo = toothless;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC326A5C19DE81A7008F3BF4 /* toothless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toothless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC326A6019DE81A7008F3BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC326A6119DE81A7008F3BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC326A6419DE81A7008F3BF4 /* toothless.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = toothless.xcdatamodel; sourceTree = "<group>"; };
+		DC326A6619DE81A7008F3BF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC326A6919DE81A7008F3BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC326A6B19DE81A7008F3BF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC326A6E19DE81A7008F3BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC326A7419DE81A7008F3BF4 /* toothlessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toothlessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC326A7919DE81A7008F3BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC326A7A19DE81A7008F3BF4 /* toothlessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toothlessTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC326A5919DE81A7008F3BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC326A7119DE81A7008F3BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC326A5319DE81A7008F3BF4 = {
+			isa = PBXGroup;
+			children = (
+				DC326A5E19DE81A7008F3BF4 /* toothless */,
+				DC326A7719DE81A7008F3BF4 /* toothlessTests */,
+				DC326A5D19DE81A7008F3BF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC326A5D19DE81A7008F3BF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC326A5C19DE81A7008F3BF4 /* toothless.app */,
+				DC326A7419DE81A7008F3BF4 /* toothlessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC326A5E19DE81A7008F3BF4 /* toothless */ = {
+			isa = PBXGroup;
+			children = (
+				DC326A6119DE81A7008F3BF4 /* AppDelegate.swift */,
+				DC326A6619DE81A7008F3BF4 /* ViewController.swift */,
+				DC326A6819DE81A7008F3BF4 /* Main.storyboard */,
+				DC326A6B19DE81A7008F3BF4 /* Images.xcassets */,
+				DC326A6D19DE81A7008F3BF4 /* LaunchScreen.xib */,
+				DC326A6319DE81A7008F3BF4 /* toothless.xcdatamodeld */,
+				DC326A5F19DE81A7008F3BF4 /* Supporting Files */,
+			);
+			path = toothless;
+			sourceTree = "<group>";
+		};
+		DC326A5F19DE81A7008F3BF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC326A6019DE81A7008F3BF4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC326A7719DE81A7008F3BF4 /* toothlessTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC326A7A19DE81A7008F3BF4 /* toothlessTests.swift */,
+				DC326A7819DE81A7008F3BF4 /* Supporting Files */,
+			);
+			path = toothlessTests;
+			sourceTree = "<group>";
+		};
+		DC326A7819DE81A7008F3BF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC326A7919DE81A7008F3BF4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC326A5B19DE81A7008F3BF4 /* toothless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC326A7E19DE81A7008F3BF4 /* Build configuration list for PBXNativeTarget "toothless" */;
+			buildPhases = (
+				DC326A5819DE81A7008F3BF4 /* Sources */,
+				DC326A5919DE81A7008F3BF4 /* Frameworks */,
+				DC326A5A19DE81A7008F3BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toothless;
+			productName = toothless;
+			productReference = DC326A5C19DE81A7008F3BF4 /* toothless.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC326A7319DE81A7008F3BF4 /* toothlessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC326A8119DE81A7008F3BF4 /* Build configuration list for PBXNativeTarget "toothlessTests" */;
+			buildPhases = (
+				DC326A7019DE81A7008F3BF4 /* Sources */,
+				DC326A7119DE81A7008F3BF4 /* Frameworks */,
+				DC326A7219DE81A7008F3BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC326A7619DE81A7008F3BF4 /* PBXTargetDependency */,
+			);
+			name = toothlessTests;
+			productName = toothlessTests;
+			productReference = DC326A7419DE81A7008F3BF4 /* toothlessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC326A5419DE81A7008F3BF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = astanakhvc;
+				TargetAttributes = {
+					DC326A5B19DE81A7008F3BF4 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					DC326A7319DE81A7008F3BF4 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = DC326A5B19DE81A7008F3BF4;
+					};
+				};
+			};
+			buildConfigurationList = DC326A5719DE81A7008F3BF4 /* Build configuration list for PBXProject "toothless" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC326A5319DE81A7008F3BF4;
+			productRefGroup = DC326A5D19DE81A7008F3BF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC326A5B19DE81A7008F3BF4 /* toothless */,
+				DC326A7319DE81A7008F3BF4 /* toothlessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC326A5A19DE81A7008F3BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC326A6A19DE81A7008F3BF4 /* Main.storyboard in Resources */,
+				DC326A6F19DE81A7008F3BF4 /* LaunchScreen.xib in Resources */,
+				DC326A6C19DE81A7008F3BF4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC326A7219DE81A7008F3BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC326A5819DE81A7008F3BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC326A6719DE81A7008F3BF4 /* ViewController.swift in Sources */,
+				DC326A6219DE81A7008F3BF4 /* AppDelegate.swift in Sources */,
+				DC326A6519DE81A7008F3BF4 /* toothless.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC326A7019DE81A7008F3BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC326A7B19DE81A7008F3BF4 /* toothlessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC326A7619DE81A7008F3BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC326A5B19DE81A7008F3BF4 /* toothless */;
+			targetProxy = DC326A7519DE81A7008F3BF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC326A6819DE81A7008F3BF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC326A6919DE81A7008F3BF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC326A6D19DE81A7008F3BF4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC326A6E19DE81A7008F3BF4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC326A7C19DE81A7008F3BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC326A7D19DE81A7008F3BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC326A7F19DE81A7008F3BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = toothless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC326A8019DE81A7008F3BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = toothless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC326A8219DE81A7008F3BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = toothlessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toothless.app/toothless";
+			};
+			name = Debug;
+		};
+		DC326A8319DE81A7008F3BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = toothlessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toothless.app/toothless";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC326A5719DE81A7008F3BF4 /* Build configuration list for PBXProject "toothless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC326A7C19DE81A7008F3BF4 /* Debug */,
+				DC326A7D19DE81A7008F3BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC326A7E19DE81A7008F3BF4 /* Build configuration list for PBXNativeTarget "toothless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC326A7F19DE81A7008F3BF4 /* Debug */,
+				DC326A8019DE81A7008F3BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC326A8119DE81A7008F3BF4 /* Build configuration list for PBXNativeTarget "toothlessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC326A8219DE81A7008F3BF4 /* Debug */,
+				DC326A8319DE81A7008F3BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC326A6319DE81A7008F3BF4 /* toothless.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC326A6419DE81A7008F3BF4 /* toothless.xcdatamodel */,
+			);
+			currentVersion = DC326A6419DE81A7008F3BF4 /* toothless.xcdatamodel */;
+			path = toothless.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC326A5419DE81A7008F3BF4 /* Project object */;
+}

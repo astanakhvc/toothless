@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E3F4F62F-DFCB-4B0E-B6DC-6DDB9F4A941F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>toothless</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>50EDA9C4E23E70FB5E563B2A549BD060EA55BF56</key>
+		<string>https://github.com/astanakhvc/toothless.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>xx/toothless/toothless.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>50EDA9C4E23E70FB5E563B2A549BD060EA55BF56</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/astanakhvc/toothless.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>50EDA9C4E23E70FB5E563B2A549BD060EA55BF56</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>50EDA9C4E23E70FB5E563B2A549BD060EA55BF56</string>
+			<key>IDESourceControlWCCName</key>
+			<string>toothless</string>
+		</dict>
+	</array>
+</dict>
+</plist>
