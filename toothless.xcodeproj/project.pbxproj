@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1ADE82919DF757B008B5EF8 /* weightHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADE82819DF757B008B5EF8 /* weightHistoryVC.swift */; };
 		DC326A6219DE81A7008F3BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC326A6119DE81A7008F3BF4 /* AppDelegate.swift */; };
 		DC326A6519DE81A7008F3BF4 /* toothless.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC326A6319DE81A7008F3BF4 /* toothless.xcdatamodeld */; };
 		DC326A6719DE81A7008F3BF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC326A6619DE81A7008F3BF4 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1ADE82819DF757B008B5EF8 /* weightHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = weightHistoryVC.swift; path = ../weightHistoryVC.swift; sourceTree = "<group>"; };
 		DC326A5C19DE81A7008F3BF4 /* toothless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toothless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC326A6019DE81A7008F3BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC326A6119DE81A7008F3BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				DC326A6119DE81A7008F3BF4 /* AppDelegate.swift */,
 				DC326A6619DE81A7008F3BF4 /* ViewController.swift */,
+				C1ADE82819DF757B008B5EF8 /* weightHistoryVC.swift */,
 				DC326A6819DE81A7008F3BF4 /* Main.storyboard */,
 				DC326A6B19DE81A7008F3BF4 /* Images.xcassets */,
 				DC326A6D19DE81A7008F3BF4 /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				DC326A6719DE81A7008F3BF4 /* ViewController.swift in Sources */,
 				DC326A6219DE81A7008F3BF4 /* AppDelegate.swift in Sources */,
 				DC326A6519DE81A7008F3BF4 /* toothless.xcdatamodeld in Sources */,
+				C1ADE82919DF757B008B5EF8 /* weightHistoryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				DC326A8019DE81A7008F3BF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC326A8119DE81A7008F3BF4 /* Build configuration list for PBXNativeTarget "toothlessTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				DC326A8319DE81A7008F3BF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
